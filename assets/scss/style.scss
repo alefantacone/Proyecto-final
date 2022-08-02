@@ -1,0 +1,45 @@
+@import "variables";
+@import "fonts";
+@import "reset";
+@import "nav";
+@import "header";
+@import "main";
+@import "btn";
+@import "hover";
+@import "footer";
+
+@media(max-width:576px){
+    .imgAzucar50:hover{
+        transform: translate(0px); 
+    }
+    .imgAzucar10:hover{
+        transform:  translate(0px);
+    }
+    .imgMaizAm:hover{
+        transform: translate(0px);
+    }
+    .imgMaizBl:hover{
+        transform: translate(0px);
+    }
+    .imgAlimentoPe:hover{
+        transform: translate(0px);
+    }
+    .imgAlimentoGa:hover{
+        transform: translate(0px);
+    }
+    .imgAlimentoPo:hover{
+        transform: translate(0px);
+    }
+    .imgAlimentoCe:hover{
+        transform: translate(0px);
+    }
+    .imgSnacksPa:hover{
+        transform: translate(0px); 
+    }
+    .imgSnacksMa:hover{
+        transform: translate(0px); 
+    }
+}
+
+
+

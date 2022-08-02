@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  color: white;
+  font-size: 18px;
+}
+
+.titulo {
+  background-color: gainsboro;
+}
+.titulo h1 {
+  font-size: 50px;
+  color: #017A1C;
+  font-family: "Caveat";
+}
+
+.subtitulo {
+  background-color: gainsboro;
+}
+.subtitulo h2 {
+  font-size: 60px;
+  font-family: "Bebas Neue";
+}
+
+h3 {
+  color: #017A1C;
+  font-size: 40px;
+  font-family: "Caveat";
+}
+
+.h3Productos {
+  background-color: cornsilk;
+}
+
+h4 {
+  font-family: "Rubik";
+  font-size: 40px;
+  color: #014710;
+}
+
+.Contacto {
+  border: solid 1px #017A1C;
+  border-radius: 15px;
+  background-color: gainsboro;
+}
+
+.btn {
+  background-color: #017A1C;
+  border: #017A1C;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.btnAzucar, .btnSnacks, .btnAlimento, .btnMaiz {
+  background-color: #2D9142;
+  border-radius: 15px;
+  border: 0;
+  color: #fff;
+  padding: 15px;
+}
+
+.imgAzucar50:hover {
+  transform: translate(5px, 10px) scale(1.05);
+  transition: 1s;
+}
+
+.imgAzucar10:hover {
+  transform: translate(-5px, 10px) scale(1.05);
+  transition: 1s;
+}
+
+.imgMaizAm:hover {
+  transform: translate(5px, -10px) scale(1.05);
+  transition: 1s;
+}
+
+.imgMaizBl:hover {
+  transform: translate(-5px, -10px) scale(1.05);
+  transition: 1s;
+}
+
+.imgAlimentoPe:hover {
+  transform: translate(5px, -10px) scale(1.05);
+  transition: 1s;
+}
+
+.imgAlimentoGa:hover {
+  transform: translate(-5px, -10px) scale(1.05);
+  transition: 1s;
+}
+
+.imgAlimentoPo:hover {
+  transform: translate(5px, 10px) scale(1.05);
+  transition: 1s;
+}
+
+.imgAlimentoCe:hover {
+  transform: translate(-5px, 10px) scale(1.05);
+  transition: 1s;
+}
+
+.imgSnacksPa:hover {
+  transform: translate(5px, -10px) scale(1.05);
+  transition: 1s;
+}
+
+.imgSnacksMa:hover {
+  transform: translate(-5px, -10px) scale(1.05);
+  transition: 1s;
+}
+
+.imgRedes:hover {
+  transform: translate(5px, 5px) scale(1.2);
+  transition: 1s;
+}
+
+.btn:hover {
+  box-shadow: 9px 7px 16px 6px rgba(0, 0, 0, 0.54);
+  background-color: #2D9142;
+  border: 1px solid #2D9142;
+}
+
+.btnAzucar:hover, .btnMaiz:hover, .btnAlimento:hover, .btnSnacks:hover {
+  box-shadow: 9px 7px 16px 6px rgba(0, 0, 0, 0.54);
+  background-color: #017A1C;
+  border: 1px solid #017A1C;
+  color: black;
+}
+
+.footer {
+  background-color: #017A1C;
+  color: white;
+}
+.footer h5 {
+  font-family: "Bebas Neue";
+  font-size: 20px;
+}
+.footer .pieh6 {
+  background-color: #014710;
+  height: 40px;
+  display: flex;
+  align-items: flex-end;
+}
+.footer .pieh6 h6 {
+  font-size: 15px;
+}
+
+@media (max-width: 576px) {
+  .imgAzucar50:hover {
+    transform: translate(0px);
+  }
+  .imgAzucar10:hover {
+    transform: translate(0px);
+  }
+  .imgMaizAm:hover {
+    transform: translate(0px);
+  }
+  .imgMaizBl:hover {
+    transform: translate(0px);
+  }
+  .imgAlimentoPe:hover {
+    transform: translate(0px);
+  }
+  .imgAlimentoGa:hover {
+    transform: translate(0px);
+  }
+  .imgAlimentoPo:hover {
+    transform: translate(0px);
+  }
+  .imgAlimentoCe:hover {
+    transform: translate(0px);
+  }
+  .imgSnacksPa:hover {
+    transform: translate(0px);
+  }
+  .imgSnacksMa:hover {
+    transform: translate(0px);
+  }
+}
